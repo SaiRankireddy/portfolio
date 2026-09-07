@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sai Rankireddy | DevOps Engineer & Cloud Architect</title>
+  <meta name="description" content="Portfolio of Sai Rankireddy, DevOps Engineer specializing in GCP, AWS, Kubernetes, Terraform, CI/CD, and Observability." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Sai<span class="logo-dot">.</span>DevOps<span class="logo-bracket">/&gt;</span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Platforms</a>
+        <a href="#contact" class="nav-link nav-cta">Get in Touch</a>
+      </div>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-backdrop"></div>
+    <div class="container hero-container">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        <span>Open for Senior Cloud & DevOps Roles</span>
+      </div>
+
+      <h1 class="hero-title">
+        Building & Scaling <br />
+        <span class="gradient-text">Cloud-Native Infrastructure</span> <br />
+        at Enterprise Scale.
+      </h1>
+
+      <p class="hero-subtitle">
+        I'm <strong>Sai Rankireddy</strong> — a DevOps Engineer with <strong>3+ years</strong> of expertise in automating cloud-native platforms on <strong>GCP & AWS</strong>, orchestrating <strong>Kubernetes</strong>, writing <strong>Terraform IaC</strong>, and optimizing microservices observability.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#experience" class="btn btn-primary"><i data-lucide="briefcase"></i> View Experience</a>
+        <a href="#contact" class="btn btn-secondary"><i data-lucide="mail"></i> Contact Me</a>
+        <a href="#resume" class="btn btn-outline"><i data-lucide="file-text"></i> Resume</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-card">
+          <div class="stat-number" data-target="3">0</div><div class="stat-suffix">+</div>
+          <div class="stat-label">Years DevOps Exp.</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="200">0</div><div class="stat-suffix">+</div>
+          <div class="stat-label">Prod Deployments</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="120">0</div><div class="stat-suffix">K+</div>
+          <div class="stat-label">Daily Orders Scaled</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="60">0</div><div class="stat-suffix">%</div>
+          <div class="stat-label">Validation Effort Cut</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">&lt;Overview&gt;</span>
+        <h2 class="section-title">Engineering Reliable Systems</h2>
+        <p class="section-description">Bridging development and operations with automated pipelines, IaC, and observability.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            </div>
+            <div class="terminal-title">sai@devops-cluster:~ (bash)</div>
+          </div>
+          <div class="terminal-body">
+            <p><span class="term-prompt">sai@infra:~$</span> whoami</p>
+            <p class="term-response">Sai Rankireddy — DevOps Engineer based in Bangalore, India.</p>
+            <p><span class="term-prompt">sai@infra:~$</span> kubectl get spec --summary</p>
+            <p class="term-response">
+              • Core Stack: Kubernetes (GKE), Docker, Terraform, CI/CD<br/>
+              • Cloud Platforms: Google Cloud Platform (GCP) & AWS<br/>
+              • Frameworks: Python / FastAPI, Jio Automator, Shell<br/>
+              • Monitoring: Prometheus, Grafana, GCP Cloud Logging
+            </p>
+            <p><span class="term-prompt">sai@infra:~$</span> cat philosophy.txt</p>
+            <p class="term-response text-highlight">
+              "Automate repetitive tasks, build idempotent pipelines, design self-healing architectures, and maintain 360° observability."
+            </p>
+            <p><span class="term-prompt">sai@infra:~$</span> <span class="cursor">|</span></p>
+          </div>
+        </div>
+
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <div class="highlight-icon"><i data-lucide="cloud"></i></div>
+            <div>
+              <h3>Multi-Cloud Infrastructure</h3>
+              <p>Architecting production platforms on GCP and AWS using Terraform IaC and IAM governance.</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon"><i data-lucide="cpu"></i></div>
+            <div>
+              <h3>Kubernetes & Helm</h3>
+              <p>Standardizing application deployments across GKE and self-managed Kubernetes with reusable Helm charts.</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon"><i data-lucide="activity"></i></div>
+            <div>
+              <h3>Observability & RCA</h3>
+              <p>Prometheus & Grafana telemetry dashboards, alerting, and Root Cause Analysis for distributed microservices.</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-icon"><i data-lucide="code-2"></i></div>
+            <div>
+              <h3>Automation Frameworks</h3>
+              <p>Python/FastAPI test & health automation tools cutting manual validation workload by ~60%.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline Section -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">&lt;Career History&gt;</span>
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-description">Hands-on impact across high-volume production platforms.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Job 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"><i data-lucide="server"></i></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <span class="company-badge">Jio Platforms Limited</span>
+                <h3 class="role-title">DevOps Engineer</h3>
+              </div>
+              <div class="timeline-meta">
+                <span><i data-lucide="calendar"></i> Jan 2024 — Aug 2026</span>
+                <span><i data-lucide="map-pin"></i> Bangalore, India</span>
+              </div>
+            </div>
+            <ul class="experience-list">
+              <li><i data-lucide="check"></i> Managed production & replica environments for <strong>5+ cloud-native e-commerce platforms</strong> (Tira, SHEIN, Clovia, Zivame, Metro) on GCP/AWS, executing <strong>200+ production deployments</strong>.</li>
+              <li><i data-lucide="check"></i> Scaled SHEIN platform capacity from <strong>70K to 120K+ daily orders</strong> while maintaining zero-downtime application stability.</li>
+              <li><i data-lucide="check"></i> Built reusable <strong>Helm charts for GKE & Kubernetes</strong>, standardizing multi-environment releases.</li>
+              <li><i data-lucide="check"></i> Developed <strong>Python/FastAPI automation frameworks</strong> & Jio Automator workflows, cutting manual validation by <strong>~60%</strong>.</li>
+              <li><i data-lucide="check"></i> Provisioned GCP infrastructure via <strong>Terraform</strong> (IAM roles, org policies, Cloud Logging).</li>
+              <li><i data-lucide="check"></i> Built <strong>Prometheus & Grafana dashboards</strong> and alert rules for real-time monitoring and incident RCA.</li>
+            </ul>
+            <div class="skill-tags">
+              <span>GCP</span><span>AWS</span><span>Kubernetes</span><span>Docker</span><span>Helm</span><span>Terraform</span><span>Python</span><span>FastAPI</span><span>Prometheus</span><span>Grafana</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"><i data-lucide="code"></i></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <span class="company-badge">Lovas IT Solutions Limited</span>
+                <h3 class="role-title">SDE Intern</h3>
+              </div>
+              <div class="timeline-meta">
+                <span><i data-lucide="calendar"></i> June 2023 — Dec 2023</span>
+                <span><i data-lucide="map-pin"></i> Hyderabad, India</span>
+              </div>
+            </div>
+            <ul class="experience-list">
+              <li><i data-lucide="check"></i> Developed responsive frontends and backend microservices using <strong>Node.js & Express.js</strong>.</li>
+              <li><i data-lucide="check"></i> Integrated <strong>MongoDB</strong> and participated in schema design and query optimization.</li>
+              <li><i data-lucide="check"></i> Maintained code quality via Git version control and team code reviews.</li>
+            </ul>
+            <div class="skill-tags">
+              <span>Node.js</span><span>Express</span><span>MongoDB</span><span>JavaScript</span><span>Figma</span><span>Git</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education -->
+        <div class="timeline-item">
+          <div class="timeline-dot"><i data-lucide="graduation-cap"></i></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <span class="company-badge">JNTUK University</span>
+                <h3 class="role-title">B.Tech in Computer Science & Engineering</h3>
+              </div>
+              <div class="timeline-meta">
+                <span><i data-lucide="calendar"></i> 2019 — 2023</span>
+                <span>Aditya College of Engineering & Tech</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Matrix -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">&lt;Tech Matrix&gt;</span>
+        <h2 class="section-title">Skills & Technologies</h2>
+        <p class="section-description">Domain expertise across cloud, DevOps, containerization, and automation.</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-card-head"><i data-lucide="cloud"></i> <h3>Cloud Platforms</h3></div>
+          <div class="skill-tags"><span>GCP (GKE, Cloud Logging, IAM)</span><span>AWS (EC2, S3, VPC)</span><span>Azure</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-head"><i data-lucide="boxes"></i> <h3>Containers & IaC</h3></div>
+          <div class="skill-tags"><span>Docker</span><span>Kubernetes (K8s)</span><span>Helm</span><span>Terraform</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-head"><i data-lucide="git-branch"></i> <h3>CI/CD & Git</h3></div>
+          <div class="skill-tags"><span>GitHub Actions</span><span>Azure DevOps</span><span>Git</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-head"><i data-lucide="activity"></i> <h3>Observability</h3></div>
+          <div class="skill-tags"><span>Prometheus</span><span>Grafana</span><span>GCP Cloud Logging</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-head"><i data-lucide="code-2"></i> <h3>Languages</h3></div>
+          <div class="skill-tags"><span>Python (FastAPI)</span><span>JavaScript (Node.js)</span><span>Java</span><span>Shell Scripting</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-head"><i data-lucide="database"></i> <h3>Databases & Queues</h3></div>
+          <div class="skill-tags"><span>MySQL</span><span>MongoDB</span><span>Redis</span><span>Kafka</span><span>Claude/Cursor</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Major Platforms & Projects -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">&lt;Key Engineering Projects&gt;</span>
+        <h2 class="section-title">Featured Infrastructure Projects</h2>
+        <p class="section-description">Enterprise scale platform management & automation initiatives.</p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Capacity Scaling</span>
+            <i data-lucide="trending-up"></i>
+          </div>
+          <h3>SHEIN Platform Capacity Augmentation</h3>
+          <p class="project-org">Jio Platforms Limited</p>
+          <p>Engineered infrastructure auto-scaling to scale daily orders from 70K to 120K+ on GCP & AWS without service disruption.</p>
+          <div class="skill-tags"><span>GCP</span><span>AWS</span><span>GKE</span><span>Terraform</span><span>Prometheus</span></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Automation</span>
+            <i data-lucide="zap"></i>
+          </div>
+          <h3>Python/FastAPI Deployment Validation Engine</h3>
+          <p class="project-org">Jio Platforms Limited</p>
+          <p>Created automated testing & health check engine integrated with Jio Automator, reducing manual release validation work by ~60%.</p>
+          <div class="skill-tags"><span>Python</span><span>FastAPI</span><span>REST API</span><span>Docker</span></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Kubernetes</span>
+            <i data-lucide="layers"></i>
+          </div>
+          <h3>Reusable Helm Chart Architecture</h3>
+          <p class="project-org">Jio Platforms Limited</p>
+          <p>Standardized deployments across 5+ e-commerce platforms (Tira, SHEIN, Clovia, Zivame, Metro) using custom Helm templates.</p>
+          <div class="skill-tags"><span>Helm</span><span>Kubernetes</span><span>YAML</span><span>GitOps</span></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">IaC & Security</span>
+            <i data-lucide="shield-check"></i>
+          </div>
+          <h3>GCP Infrastructure Provisioning with Terraform</h3>
+          <p class="project-org">Jio Platforms Limited</p>
+          <p>Provisioned GCP cloud projects, IAM roles, organization security policies, and Cloud Logging sinks through automated Terraform IaC.</p>
+          <div class="skill-tags"><span>Terraform</span><span>GCP IAM</span><span>Security</span><span>Cloud Logging</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Download Section -->
+  <section class="section resume-section" id="resume">
+    <div class="container">
+      <div class="resume-card glass-card">
+        <div class="resume-content">
+          <i data-lucide="file-check" class="resume-icon"></i>
+          <div>
+            <h2>Sai Rankireddy — Resume</h2>
+            <p>DevOps Engineer | Bangalore, India | +91 9676542938 | rspraneethchandra@gmail.com</p>
+          </div>
+        </div>
+        <div class="resume-actions">
+          <a href="javascript:void(0)" onclick="window.print()" class="btn btn-primary"><i data-lucide="printer"></i> Print / Save PDF</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">&lt;Connect&gt;</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-description">Reach out for opportunities, cloud consulting, or technical collaborations.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-cards">
+          <a href="mailto:rspraneethchandra@gmail.com" class="contact-card">
+            <i data-lucide="mail"></i>
+            <div>
+              <span class="label">Email</span>
+              <span class="val">rspraneethchandra@gmail.com</span>
+            </div>
+          </a>
+          <a href="tel:+919676542938" class="contact-card">
+            <i data-lucide="phone"></i>
+            <div>
+              <span class="label">Phone</span>
+              <span class="val">+91 9676542938</span>
+            </div>
+          </a>
+          <div class="contact-card">
+            <i data-lucide="map-pin"></i>
+            <div>
+              <span class="label">Location</span>
+              <span class="val">Bangalore, Karnataka, India</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form glass-card" onsubmit="event.preventDefault(); alert('Message sent! Thank you for reaching out.');">
+          <h3>Send Message</h3>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <input type="text" placeholder="Subject" required />
+          <textarea rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary btn-full"><i data-lucide="send"></i> Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 Sai Rankireddy. Crafted for performance, scalability & reliability.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+</html>
